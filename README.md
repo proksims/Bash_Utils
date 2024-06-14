@@ -4,7 +4,9 @@ Development of Bash text utilities: cat, grep.
 Bash utilities for working with C programming language texts. These utilities (cat and grep) are often used in the Linux terminal. As part of the project you’ll learn the organization of the Bash utilities and solidify knowledge of structured programming.
 
 ## Part 1. Working with the cat utility
+
 need to develop a cat utility:
+
 - Support of all flags (including GNU versions) specified
 - The source, header, and build files must be placed in the src/cat/ directory
 
@@ -16,9 +18,10 @@ need to develop a cat utility:
 | 4   | -s (GNU: --squeeze-blank)                                      | squeeze multiple adjacent blank lines        |
 | 5   | -t implies -v (GNU: -T the same, but without implying -v)      | but also display tabs as ^I                  |
 
-
 ## Part 2. Working with grep utility
+
 need to develop the grep utility:
+
 - Support of the following flags: `-e`, `-i`, `-v`, `-c`, `-l`, ` -n``-h `, `-s`, `-f`, `-o`
 - The source, header and make files must be placed in the src/grep/ directory
 
